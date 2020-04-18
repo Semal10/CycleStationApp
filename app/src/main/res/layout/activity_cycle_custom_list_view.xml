@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="4"
+    android:orientation="vertical"
+    tools:context=".Admin.cycle.CycleCustomListView">
+
+    <TextView
+        android:id="@+id/tvAdminCycleViewStation"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:text="STATION"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:id="@+id/tvAdminCycleViewStatus"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:text="STATUS"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:id="@+id/tvAdminCycleViewCycleRegNo"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:text="Cycle Reg No"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        />
+
+    <Button
+        android:id="@+id/bt_cancelCycle"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginLeft="150dp"
+        android:layout_weight="1"
+        android:background="@drawable/cornerbutton"
+        android:drawableTop="@drawable/ic_delete_black_24dp"
+        android:paddingTop="0dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

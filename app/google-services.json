@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "988156576406",
+    "firebase_url": "https://cyclestationsemal.firebaseio.com",
+    "project_id": "cyclestationsemal",
+    "storage_bucket": "cyclestationsemal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988156576406:android:8dabf20f705a47d077b8b7",
+        "android_client_info": {
+          "package_name": "com.example.cyclestationsemal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988156576406-r28jm23hnk6b4jkp675kdo6pb7btk4n1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cyclestationsemal",
+            "certificate_hash": "692c97ec477fe22ae4a6bfd98f61b5724f1ab29f"
+          }
+        },
+        {
+          "client_id": "988156576406-fcf7pcrefqepbu6kumjovj1gu11m00pv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJp9s1hZxBjh10itaHqnVqS2WmrSmVJP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988156576406-fcf7pcrefqepbu6kumjovj1gu11m00pv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

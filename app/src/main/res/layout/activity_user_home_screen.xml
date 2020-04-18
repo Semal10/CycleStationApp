@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="9"
+    android:orientation="vertical"
+    tools:context=".UserHomeScreen"
+    android:background="#FF8b00">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:id="@+id/bt_userViewUpdate"
+        android:text="VIEW OR UPDATE INFORMATION"
+        android:textSize="25sp"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:textColor="#000000"
+        android:layout_weight="1"
+        android:background="@drawable/cornerbutton"
+        />
+
+    <Button
+        android:id="@+id/bt_userNearStation"
+        android:textSize="25sp"
+        android:text="LOCATE NEAR BY STATION"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:textColor="#000000"
+        android:layout_weight="1"
+        android:background="@drawable/cornerbutton"
+        />
+
+    <Button
+        android:id="@+id/bt_userComplain"
+        android:text="COMPLAIN"
+        android:textSize="25sp"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:background="@drawable/cornerbutton"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/tv_rideInfo"
+        android:text="Current Ride Information"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:textColor="#000000"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:weightSum="2"
+       android:orientation="horizontal"
+
+       >
+    <TextView
+        android:text="Amount Paid : "
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        />
+
+       <TextView
+           android:id="@+id/tv_userAmountPaid"
+           android:text=""
+           android:textSize="30sp"
+           android:textColor="#000000"
+           android:textStyle="bold"
+           android:layout_width="0dp"
+           android:gravity="center"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           />
+
+   </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal"
+
+        >
+    <TextView
+        android:text="Time Left : "
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        />
+
+        <TextView
+            android:id="@+id/tv_userTimeLeft"
+            android:text=""
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <!--<Button
+        android:id="@+id/bt_clearCookie"
+        android:text="Clear Cookie"
+        android:textSize="25sp"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:background="@drawable/cornerbutton"
+        />
+-->
+</LinearLayout>

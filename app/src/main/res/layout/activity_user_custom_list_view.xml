@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_ListView"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    tools:context=".Admin.user.UserCustomListView">
+
+    <TextView
+        android:id="@+id/tvAdminUserViewName"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:text="NAME"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tvAdminUserViewMail"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:text="E-MAIL"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tvAdminUserViewPhone"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:text="PHONE"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:id="@+id/tvAdminUserViewRole"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:text="ROLE"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        />
+
+    <Button
+        android:id="@+id/bt_cancelUser"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginLeft="150dp"
+        android:layout_weight="1"
+        android:background="@drawable/cornerbutton"
+        android:drawableTop="@drawable/ic_delete_black_24dp"
+        android:paddingTop="0dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</LinearLayout>

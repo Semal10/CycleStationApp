@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:weightSum="6"
+    android:layout_height="match_parent"
+    android:background="#FF8b00">
+
+    <TextView
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:text="INSERT NEW CYCLE"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:paddingTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="Station Name"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"/>
+
+        <EditText
+            android:id="@+id/et_station"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="Status"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="10dp"/>
+
+        <EditText
+            android:id="@+id/et_status"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="Cycle Registration Number"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:paddingTop="12dp"
+            android:layout_marginLeft="10dp"/>
+
+        <EditText
+            android:id="@+id/et_cycleRegNo"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="Image URL"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:paddingTop="12dp"
+            android:layout_marginLeft="10dp"/>
+
+        <EditText
+            android:id="@+id/et_imageURL"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_addCycle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:background="@drawable/cornerbutton"
+            android:text="ADD CYCLE"/>
+
+        <Button
+            android:id="@+id/bt_cancelCycle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:background="@drawable/cornerbutton"
+            android:text="CANCEL"/>
+
+    </LinearLayout>
+
+</LinearLayout>

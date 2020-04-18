@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:weightSum="8"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#FF8b00"
+    tools:context=".Admin.user.BookCycleCard">
+
+    <TextView
+        android:id="@+id/tv_bookCycleCardStationName"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:text="STATION NAME"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        />
+
+    <LinearLayout
+
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        >
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:text="Open Time :"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+        <TextView
+            android:id="@+id/tv_bookCycleCardOpenTime"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:text=""
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:text="Close Time :"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:id="@+id/tv_bookCycleCardCloseTime"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:text=""
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:text="Available Cycles  :"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:id="@+id/tv_bookCycleCardAvailableCycles"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:text=""
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_bookCycleCardRent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:text="Rent (Per Hours) : 100"
+        android:textSize="30sp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:id="@+id/tv_bookCycleCardDeposit"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:text="Deposit (Rs 50/-)"
+        android:textSize="30sp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+    <Spinner
+        android:id="@+id/sp_bookCycleCardSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        />
+
+    <Button
+        android:id="@+id/bt_bookCycleCardBookCycle"
+        android:layout_height="0dp"
+        android:layout_width="250dp"
+        android:text="Book Cycle"
+        android:textSize="30sp"
+        android:background="@drawable/cornerbutton"
+        android:layout_gravity="center"
+
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>

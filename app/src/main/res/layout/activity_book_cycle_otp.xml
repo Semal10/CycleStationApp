@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5"
+    android:background="#ff8b00">
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"/>
+
+
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:text="BOOK CYCLE OTP"
+        android:textColor="#000000"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:paddingTop="40dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="ENTER OTP"
+            android:textSize="30dp"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:paddingTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/et_bookCycleOtp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_bookCycleSendOtp"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="350dp"
+        android:text="SEND"
+        android:textSize="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/cornerbutton"/>
+
+</LinearLayout>

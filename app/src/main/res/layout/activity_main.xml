@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#003153"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login Page"
+        android:textColor="#000000"
+        android:layout_weight="1"
+        android:textSize="25dp"
+        android:paddingTop="20dp"
+        android:paddingLeft="30dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textColor="#000000"
+            android:background="#003153"
+            android:layout_weight="1"
+            android:textSize="35dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="30dp"
+            android:paddingLeft="30dp"
+            android:fontFamily="sans-serif"
+        />
+
+
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:orientation="vertical"
+            android:weightSum="5">
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:text="E-Mail"
+                android:paddingTop="46dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="6dp"
+                android:paddingLeft="30dp"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"
+                />
+
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColorHint="#FFFFFF"
+                android:paddingTop="10dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp"
+                android:drawableLeft="@drawable/ic_action_email"
+                android:paddingLeft="30dp"
+                android:hint="semal.sherathia@gmail.com"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:text="Password"
+                android:paddingTop="26dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="6dp"
+                android:paddingLeft="30dp"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"
+                />
+            <EditText
+                android:id="@+id/et_pass"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColorHint="#FFFFFF"
+                android:paddingTop="10dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp"
+                android:layout_marginBottom="30dp"
+                android:paddingLeft="30dp"
+                android:hint="********"
+                android:textSize="25dp"
+                android:drawableLeft="@drawable/ic_action_pass"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:orientation="vertical"
+            android:weightSum="20">
+
+            <Button
+                android:id="@+id/bt_login"
+                android:drawableLeft="@drawable/ic_action_login"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Log In"
+                android:textAlignment="center"
+                android:background="@drawable/cornerbutton"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif"
+                android:textSize="20dp"
+                android:layout_marginLeft="55dp"
+                android:paddingLeft="115dp"
+                android:paddingRight="115dp"
+                android:textAllCaps="false"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                />
+
+            <Button
+                android:id="@+id/bt_Register"
+                android:drawableLeft="@drawable/ic_action_regis"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Register"
+                android:textAlignment="center"
+                android:background="@drawable/cornerbutton"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif"
+                android:textSize="20dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="105dp"
+                android:paddingRight="106dp"
+                android:textAllCaps="false"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>

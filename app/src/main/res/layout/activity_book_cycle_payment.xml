@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:weightSum="5"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#FF8b00"
+    tools:context=".Admin.user.BookCycleCard">
+
+
+
+    <TextView
+        android:id="@+id/tv_bookCycleCardRent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:text="Rent (Per Hours) : 100"
+        android:textSize="30sp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:id="@+id/tv_bookCycleCardDeposit"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:text="Deposit (Rs 50/-)"
+        android:textSize="30sp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+    <LinearLayout
+
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:text="Total Hours :"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:id="@+id/tv_bookCycleTotalHours"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:text=""
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:text="Total Payment :"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:id="@+id/tv_bookCycleTotalPayment"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:text=""
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_bookCycleCardBookPay"
+        android:layout_height="0dp"
+        android:layout_width="250dp"
+        android:text="Pay"
+        android:textSize="30sp"
+        android:background="@drawable/cornerbutton"
+        android:layout_gravity="center"
+
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>
